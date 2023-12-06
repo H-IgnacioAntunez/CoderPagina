@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/*Colores de la página*/
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  font-size: 16px;
+  background: linear-gradient(0deg, rgb(245, 203, 110) 4%, rgb(244, 234, 109) 43%);
+}
+
+.navbar {
+  background: linear-gradient(0deg, #568203 0%, rgb(102, 247, 113) 100%);
+  height: 70px;
+}
+.navbar .navbar-brand img {
+  max-height: 200px;
+}
+
+/*# sourceMappingURL=style.css.map */
