@@ -3,12 +3,13 @@
 @import "./base/base";
 @import "./base/typography";
 @import "./base/images";
+@import "./components/buttons";
 //Header
 @import "./components/header";
 
 //background: linear-gradient(0deg, rgba($primary,1) 0%, rgba(102,247,113,1) 100%);
 //height: 70px;
-
+@import "./components/cards";
 
 @import "./components/footer";
 @import "./components/mediaquery";
