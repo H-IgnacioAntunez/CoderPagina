@@ -1,0 +1,45 @@
+@media screen and (max-width:1380px){
+    .title{
+        font-size: 5rem;
+    }
+    /*textoMain*/
+    .text{
+        font-size:16px
+    }
+}
+
+@media screen and (max-width:1270px){
+    /*SubtituloMain*/
+    .title{
+        font-size: 4.5rem;
+    }
+    /*TextoMain*/
+    .text{
+        font-size:15px
+    }
+}
+@media screen and (max-width:1160px){
+    /*SubtituloMain*/
+    .title{
+        font-size: 3.5rem;
+    }
+    /*TextoMain*/
+    .text{
+        font-size:14px
+    }
+}
+
+@media screen and (max-width:1070px){
+    /*SubtituloMain*/
+    .title{
+        font-size:3rem;
+    }
+}
+@media screen and (max-width: 767px){
+    .botones{
+        display: none;
+    }
+    .subtitle{
+        font-size:1rem;
+    }
+}
