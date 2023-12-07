@@ -24,4 +24,36 @@ body {
   max-height: 200px;
 }
 
+/*Footer de la página*/
+.footer {
+  background-color: #9A6732;
+  color: white;
+}
+.footer .footer__header {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.footer .footer__link {
+  text-decoration: none;
+  color: white;
+}
+.footer .footer__link:hover {
+  color: #F4EA6D;
+}
+.footer .footer__copyright {
+  color: #F4EA6D;
+  text-decoration: none;
+}
+.footer .footer__copyright:hover {
+  color: #FAEA11;
+}
+.footer .footer__icon {
+  color: white;
+  font-size: 2rem;
+}
+.footer .footer__icon:hover {
+  color: #F4EA6D;
+  transform: scale(1.3);
+}
+
 /*# sourceMappingURL=style.css.map */
