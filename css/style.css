@@ -30,6 +30,10 @@ body {
   font-size: 18px;
 }
 
+.contenedorImg {
+  height: 40vh;
+}
+
 .imagen__principal {
   height: 100%;
   width: 100%;
@@ -37,6 +41,10 @@ body {
 
 .card__img {
   width: 100%;
+}
+
+.propiedades__img {
+  height: 100%;
   width: 100%;
 }
 
@@ -142,6 +150,11 @@ body {
 @media screen and (max-width: 767px) {
   .botones {
     display: none;
+  }
+}
+@media screen and (max-width: 575px) {
+  .contenedorImg {
+    height: 200px;
   }
 }
 

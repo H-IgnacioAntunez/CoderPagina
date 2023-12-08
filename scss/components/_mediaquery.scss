@@ -39,4 +39,11 @@
     .botones{
         display: none;
     }
+    
+}
+
+@media screen and (max-width:575px){
+    .contenedorImg{
+        height: 200px;
+    }
 }
