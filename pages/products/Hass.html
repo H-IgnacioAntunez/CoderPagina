@@ -25,25 +25,25 @@
 <body class="animate__animated animate__fadeIn">
   <!--Encabezado de la página-->
   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <h1>Navbar</h1>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <!--Logo pagina-->
+        <a class="navbar-brand" href="../../index.html">
+          <img src="../../assets/img/picsvg_download.svg" height="70" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <!--Menu navegacion -->
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../../index.html">INICIO</a>
+            <li class="nav-item me-1">
+              <a class="nav-link header__btn" aria-current="page" href="../../index.html">INICIO</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../tienda.html">TIENDA</a>
+            <li class="nav-item me-1">
+              <a class="nav-link header__btn" href="../tienda.html">TIENDA</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../propiedades.html">PROPIEDADES</a>
+            <li class="nav-item me-1">
+              <a class="nav-link header__btn" href="../Contacto.html">CONTACTO</a>
             </li>
           </ul>
         </div>
@@ -146,26 +146,33 @@
     <div class="container text-center text-md-start">
       <div class="row text-center text-md-start">
         <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <!--Seccion nosotros-->
           <h2 class="footer__header mb-4">Nosotros</h2>
           <hr class="mb-4">
+          <!--Texto nosotros-->
           <p class="footer__text">En Palta Shop, llevamos la experiencia de disfrutar de las mejores paltas
             directamente a tu hogar. Nos apasiona ofrecerte una selección única de paltas frescas y
             deliciosas, cultivadas con esmero para brindarte un sabor excepcional en cada bocado.</p>
         </div>
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-          <h2 class="footer__header mb-4">Soporte</h2>
+          <!--Seccion navegacion-->
+          <h2 class="footer__header mb-4">Navegacion</h2>
           <hr class="mb-3">
+          <!--Menu navegacion-->
           <ul class="nav flex-column text-center">
-            <li class="nav-item"><a href="#" class="footer__link">Mi cuenta</a></li>
-            <li class="nav-item"><a href="#" class="footer__link">Mis pedidos</a></li>
-            <li class="nav-item"><a href="#" class="footer__link"">Configuracion</a></li>
-            <li class="nav-item"><a href="#" class="footer__link"">Acerca de Palta Shop</a></li>
-            <li class="nav-item"><a href="#" class="footer__link">Ayuda</a></li>
+            <li class="nav-item"><a href="../../index.html" class="footer__link">Inicio</a></li>
+            <li class="nav-item"><a href="../tienda.html" class="footer__link">Tienda</a></li>
+            <li class="nav-item"><a href="./lambHass.html" class="footer__link"">Palta Lamb Hass</a></li>
+            <li class="nav-item"><a href="./Hass.html" class="footer__link"">Palta Hass</a></li>
+            <li class="nav-item"><a href="./pinkerton.html" class="footer__link">Palta Pinkerton</a></li>
+            <li class="nav-item"><a href="../Contacto.html" class="footer__link">Contacto</a></li>
           </ul>
         </div>
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <!--Titulo contacto-->
           <h2 class="footer__header mb-4">CONTACTO</h2>
           <hr class="mb-3">
+          <!--Texto contacto-->
           <div class="d-flex flex-column align-items-center">
             <div class="d-flex align-items-center mb-2">
               <i class="fas fa-home me-3"></i>
@@ -182,6 +189,7 @@
           </div>
         </div>
         <hr class="mb-4 mt-4">
+        <!--Seccion Copyright-->
         <div class="text-center mb-2">
           <p>
             Copyright Todos los derechos reservados.
